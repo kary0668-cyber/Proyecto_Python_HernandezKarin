@@ -1,0 +1,60 @@
+{
+    "usuarios": [
+        {
+            "identificacion": "0000",
+            "nombre": "Admin",
+            "apellidos": "Administrador",
+            "telefono": "555 000111",
+            "correo": "admin@acmeclinic.com",
+            "direccion": "Cl 185 # 26-85",
+            "contrasena": "Admin123",
+            "rol": "administrador"
+        },
+        {
+            "identificacion": "2323",
+            "nombre": "Daniela ",
+            "apellidos": "Otavo",
+            "telefono": "555 656",
+            "correo": "Medico1@acmeclinic.com",
+            "direccion": "Cl 185 # 26-85",
+            "contrasena": "Medico1123",
+            "rol": "medico"
+        }
+    ],
+    "pacientes": [
+        {
+            "identificacion": "1096",
+            "nombre": "Karin",
+            "apellidos": "Hernandez",
+            "telefono": "666 545",
+            "correo": "kari@gmail.com",
+            "direccion": "cll15-4-43",
+            "genero": "F",
+            "estado_civil": "UNION LIBRE"
+        }
+    ],
+    "diagnosticos": [
+        {
+            "identificacion_paciente": "1096",
+            "nombre_paciente": "Karin",
+            "identificacion_medico": "2323",
+            "nombre_medico": "Daniela ",
+            "sintomas": "gripa acompa\u00f1ada de fiebre",
+            "diagnostico": "ingresa paciente con tos seca, fiebre en 37.7 y se diagnostica con sintomas de covit ",
+            "medicamentos": [
+                {
+                    "nombre": "acetaminofem",
+                    "cantidad": "2 por dia",
+                    "dosis_diaria": "cada 8 horas",
+                    "tiempo_aplicacion": "tratamiento por 15 dias "
+                },
+                {
+                    "nombre": "vitamina c",
+                    "cantidad": "3 por dia",
+                    "dosis_diaria": "cada 5 horas",
+                    "tiempo_aplicacion": "15 dias"
+                }
+            ]
+        }
+    ]
+}
