@@ -1,0 +1,132 @@
+{
+    "usuarios": [
+        {
+            "identificacion": "0000",
+            "nombre": "Admin",
+            "apellidos": "Administrador",
+            "telefono": "555 000111",
+            "correo": "admin@acmeclinic.com",
+            "direccion": "Cl 185 # 26-85",
+            "contrasena": "Admin123",
+            "rol": "administrador"
+        },
+        {
+            "identificacion": "2323",
+            "nombre": "Daniela ",
+            "apellidos": "Otavo",
+            "telefono": "555 656",
+            "correo": "Medico1@acmeclinic.com",
+            "direccion": "Cl 185 # 26-85",
+            "contrasena": "Medico1123",
+            "rol": "medico"
+        },
+        {
+            "identificacion": "8888",
+            "nombre": "med",
+            "apellidos": "de",
+            "telefono": "888",
+            "correo": "dede@kjdskfjsd.com",
+            "direccion": "dsfsdf",
+            "contrasena": "1255",
+            "rol": "mds"
+        },
+        {
+            "identificacion": "0001",
+            "nombre": "Med",
+            "apellidos": "med2",
+            "telefono": "233",
+            "correo": "med@acmeclinic.com",
+            "direccion": "jsjs",
+            "contrasena": "med1",
+            "rol": "medico"
+        },
+        {
+            "identificacion": "8585",
+            "nombre": "Medico2",
+            "apellidos": "med",
+            "telefono": "255 666",
+            "correo": "medico2@acmeclinic.com",
+            "direccion": "cl wo",
+            "contrasena": "medico2_",
+            "rol": "Medico"
+        }
+    ],
+    "pacientes": [
+        {
+            "identificacion": "1096",
+            "nombre": "Karin",
+            "apellidos": "Hernandez",
+            "telefono": "666 545",
+            "correo": "kari@gmail.com",
+            "direccion": "cll15-4-43",
+            "genero": "F",
+            "estado_civil": "UNION LIBRE"
+        },
+        {
+            "identificacion": "666",
+            "nombre": "pac",
+            "apellidos": "pac",
+            "telefono": "256",
+            "correo": "kdjfkl@gmail.com",
+            "direccion": "rrr",
+            "genero": "m",
+            "estado_civil": "s"
+        },
+        {
+            "identificacion": "9632",
+            "nombre": "Karin",
+            "apellidos": "Her",
+            "telefono": "123",
+            "correo": "kar@jdhf",
+            "direccion": "cllas",
+            "genero": "Femenino",
+            "estado_civil": "soltera"
+        }
+    ],
+    "diagnosticos": [
+        {
+            "identificacion_paciente": "1096",
+            "nombre_paciente": "Karin",
+            "identificacion_medico": "2323",
+            "nombre_medico": "Daniela ",
+            "sintomas": "gripa acompa\u00f1ada de fiebre",
+            "diagnostico": "ingresa paciente con tos seca, fiebre en 37.7 y se diagnostica con sintomas de covit ",
+            "medicamentos": [
+                {
+                    "nombre": "acetaminofem",
+                    "cantidad": "2 por dia",
+                    "dosis_diaria": "cada 8 horas",
+                    "tiempo_aplicacion": "tratamiento por 15 dias "
+                },
+                {
+                    "nombre": "vitamina c",
+                    "cantidad": "3 por dia",
+                    "dosis_diaria": "cada 5 horas",
+                    "tiempo_aplicacion": "15 dias"
+                }
+            ]
+        },
+        {
+            "identificacion_paciente": "9632",
+            "nombre_paciente": "Karin",
+            "identificacion_medico": "8585",
+            "nombre_medico": "Medico2",
+            "sintomas": "dolor de estomago ",
+            "diagnostico": "dolr de estomago",
+            "medicamentos": [
+                {
+                    "nombre": "medico2",
+                    "cantidad": "2",
+                    "dosis_diaria": "2",
+                    "tiempo_aplicacion": "por un mes "
+                },
+                {
+                    "nombre": "acetaminofem",
+                    "cantidad": "2",
+                    "dosis_diaria": "cada 8 horas",
+                    "tiempo_aplicacion": "1 mes"
+                }
+            ]
+        }
+    ]
+}
