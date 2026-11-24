@@ -26,6 +26,7 @@ def consultar_historia_clinica(datos):
         if identificacion == diagnostico["identificacion_paciente"]:
             diagnostico_encontrado = True 
 
+            print("\nFecha:", diagnostico["fecha"])
             print("Síntomas:", diagnostico["sintomas"])
             print("Diagnóstico:", diagnostico["diagnostico"])
             print("Médico:", diagnostico["nombre_medico"])

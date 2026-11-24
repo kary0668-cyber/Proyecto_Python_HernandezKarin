@@ -8,7 +8,7 @@ def cargar_datos():
 
 def validar_fecha(fecha):
     if len(fecha) != 10:
-        return datos
+        return False
     
     if fecha[4] != "-" or fecha[7] != "-":
         return False
@@ -82,5 +82,12 @@ def reporte_anual_giagnostico():
 }
 
 with open(
-    ""
-)
+    "roporte_anual_diagnostico.json",
+    "w"
+    encoding="utf-8"
+) as archivo:
+    json.dump(reporte, archivo, indent=4, ensure_ascii=False)
+    
+    print("\n--- INFORME ANUAL ---")
+    print("Informe generado correctamente.")
+    print("Diagnosticos con fecha invalida:",invalidos)
